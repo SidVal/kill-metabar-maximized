@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
     <title>Kill the metabar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta charset="utf-8">
     <meta name="description" content="Just kill the metabar when its maximized">
     <meta name="keywords" content="medium, metabar, css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <style>
 .btn-class{
     display: inline-block;
@@ -36,8 +38,8 @@
 </style>
 </head>
 <body>
-    
-    <h1>Kill the Medium's Metabar</h1>
+<div class="container-fluid">
+    <h1>Kill <small class="text-muted">the Medium's Metabar</small></h1>
     
     <p>
         <a class="btn-class" href="javascript:(function()%7B(function(i%2Cn%2Cj%2Ce%2Cc%2Ct%2Ccss)%7B%20css%3Di.createElement(n)%3Bt%3Di.getElementsByTagName(c)%5B0%5D%3Bcss.href%3Dj%3Bcss.rel%3De%3B%20t.insertAdjacentElement('beforeend'%2Ccss)%3B%7D)%20(document%2C'link'%2C'https%3A%2F%2Fcdn.rawgit.com%2FSidVal%2Fkill-metabar-maximized%2Fmaster%2Fkill-metabar.css'%2C'stylesheet'%2C'head')%7D)()">Kill the M's Metabar</a>
@@ -53,7 +55,8 @@
   <li>Whalla! :tada: No more metabar, it’s gone!</li>
 </ol>
 
-<blockquote>
-  <p>Ps: if you want to reset the site, just press “F5” to refresh the site.</p>
+<blockquote  class="blockquote">
+  <p class="mb-0">Ps: if you want to reset the site, just press “F5” to refresh the site.</p>
 </blockquote>
+</div>
 </body></html>
