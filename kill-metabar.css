@@ -1,1 +1,1 @@
-.metabar--affixed.is-maximized {visibility: hidden !important;}
+.metabar--affixed.is-maximized, .metabar--affixed.is-transitioning {visibility: hidden !important;}
