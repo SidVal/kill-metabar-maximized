@@ -5,8 +5,44 @@
     <meta charset="utf-8">
     <meta name="description" content="Just kill the metabar when its maximized">
     <meta name="keywords" content="medium, metabar, css">
+    <style>
+.btn-class{
+    display: inline-block;
+    border:3px solid #C9AE34;
+    color: #705D07;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    font-family: Verdana;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    padding: 7px 22px;
+    box-shadow: inset 0 1px 0 0 #FFF6CE,inset 0 -1px 0 0 #E3C852,inset 0 0 0 1px #FCE88D,0 2px 4px 0 #D4D4D4;
+    -moz-box-shadow: inset 0 1px 0 0 #FFF6CE,inset 0 -1px 0 0 #E3C852,inset 0 0 0 1px #FCE88D,0 2px 4px 0 #D4D4D4;
+    -webkit-box-shadow: inset 0 1px 0 0 #FFF6CE,inset 0 -1px 0 0 #E3C852,inset 0 0 0 1px #FCE88D,0 2px 4px 0 #D4D4D4;
+    text-shadow: 1px 1px 0 #FFFFFF;
+    background-image: linear-gradient(to top, #FCE374, #FCDF5B);
+    background-color: #FCE374;
+    }
+.btn-class:hover, .btn-class:active{
+    border:3px solid #967D09;
+    color: #705D07;
+    box-shadow: inset 0 1px 0 0 #FFF6CE,inset 0 -1px 0 0 #E3C852,inset 0 0 0 1px #FCE88D;
+    -moz-box-shadow: inset 0 1px 0 0 #FFF6CE,inset 0 -1px 0 0 #E3C852,inset 0 0 0 1px #FCE88D;
+    -webkit-box-shadow: inset 0 1px 0 0 #FFF6CE,inset 0 -1px 0 0 #E3C852,inset 0 0 0 1px #FCE88D;
+    background-color: #FCDF5B;
+    }
+</style>
 </head>
 <body>
+    
+    <h1>Kill the Medium's Metabar</h1>
+    
+    <p>
+        <a class="btn-class" href="javascript:(function()%7B(function(i%2Cn%2Cj%2Ce%2Cc%2Ct%2Ccss)%7B%20css%3Di.createElement(n)%3Bt%3Di.getElementsByTagName(c)%5B0%5D%3Bcss.href%3Dj%3Bcss.rel%3De%3B%20t.insertAdjacentElement('beforeend'%2Ccss)%3B%7D)%20(document%2C'link'%2C'https%3A%2F%2Fcdn.rawgit.com%2FSidVal%2Fkill-metabar-maximized%2Fmaster%2Fkill-metabar.css'%2C'stylesheet'%2C'head')%7D)()">Kill the M's Metabar</a>
+    </p>
+    
     <h2 id="how-to-use-it">How to use it</h2>
 
 <ol>
