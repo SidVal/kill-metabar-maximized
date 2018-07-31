@@ -1,7 +1,6 @@
----
-layout: base
-title: Killing Medium's Metabar Maximized
----
+# Web Site
+
+https://sidval.github.io/kill-metabar-maximized/
 
 ## How to use it
 
